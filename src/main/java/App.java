@@ -3,7 +3,6 @@ import java.util.HashMap;
 import java.util.ArrayList;
 import java.lang.Object;
 import java.lang.String;
-import java.io.*;
 import spark.ModelAndView;
 import static java.lang.System.out;
 import spark.template.velocity.VelocityTemplateEngine;
@@ -35,8 +34,8 @@ public class App {
   public static String makePuzzle(String sentence) {
     String userInput= sentence; // create instance of input variable to manipulate and return
     String[] vowels = {"A","E","I","O","U","a","e","i","o","u"}; // all vowels
-    for (int i = 0; i<userInput.length() ;i++){
-      userInput = userInput.replaceAll(vowels[i], "-");
+    for (int i = 0; i<vowels.length ;i++){
+      userInput = userInput.replaceAll("(?i)"+vowels[i], "-");
     }
     return userInput;
   }
