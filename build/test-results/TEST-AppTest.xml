@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T19:07:54" hostname="Jacobs-MacBook-Pro.local" time="0.009">
+<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T20:47:15" hostname="Jacobs-MacBook-Pro.local" time="0.397">
   <properties/>
   <testcase name="makePuzzle_returnsForA" classname="AppTest" time="0.003"/>
-  <testcase name="makePuzzle_returnsForABC" classname="AppTest" time="0.001"/>
+  <testcase name="rootTestandFoxEntry" classname="AppTest" time="0.379"/>
+  <testcase name="makePuzzle_returnsForABC" classname="AppTest" time="0.0"/>
+  <testcase name="makePuzzle_returnsForFox" classname="AppTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Thread-4] INFO org.eclipse.jetty.util.log - Logging initialized @579ms
+  <system-err><![CDATA[[Thread-4] INFO org.eclipse.jetty.util.log - Logging initialized @575ms
 [Thread-4] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@8dbeb13{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
-[Thread-4] INFO org.eclipse.jetty.server.Server - Started @642ms
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@2c0c59f6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-4] INFO org.eclipse.jetty.server.Server - Started @632ms
 [Test worker] INFO spark.webserver.JettySparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@8dbeb13{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@2c0c59f6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.JettySparkServer - done
 ]]></system-err>
 </testsuite>
